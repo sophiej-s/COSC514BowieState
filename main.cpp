@@ -139,12 +139,7 @@ void printMemNodes(MemoryNode* head)//print the list
 
 int outRand(int lo, int hi)
 {
-    
-
     return lo + std::rand() % ( hi - lo );
-
-
-    
 }
 
 
