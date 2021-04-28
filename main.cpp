@@ -276,8 +276,6 @@ void printInstanceForTable(PCB * hReady,PCB *hCPU,PCB *hWait,PCB *hdisk,PCB *hDo
 int main(int argc, const char * argv[]) {
    // steady_clock::time_point TIME1 = steady_clock::now(); //grab out initial time stamp
     int CPUdelay=0;
-    FILE* pFile = fopen("logFile.txt", "a");
-
     
     PCB * hReady=NULL, *hCPU=NULL, *hWait=NULL, *hDisk=NULL, *hDone=NULL;
     
@@ -382,7 +380,6 @@ int main(int argc, const char * argv[]) {
 
     } //end Pipeline
 
-    fclose(pFile);
 
     //print the contents of the memory nodes as well
     cout<<"\n\nThe contents of the memory for each process-------------------------------------------------------------------------";
