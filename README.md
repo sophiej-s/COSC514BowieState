@@ -1,5 +1,5 @@
 ### COSC514BowieState
-**The repo contains C++ code for a graduate level project in the "Operating Systems" course (COSC 514) at Bowie State University**
+**The repo contains C++ code that I wrote for a graduate level project in the "Operating Systems" course (COSC 514) at Bowie State University**
 
 In this project, the goal is to simulate a number of processes going through various queues in a simplified simulated queueing system. 
 
