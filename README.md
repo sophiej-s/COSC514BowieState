@@ -1,5 +1,5 @@
-## COSC514BowieState
-#C++ project in the graduate level class "Operating Systems" at Bowie State
+# COSC514BowieState
+**#This repo contains C++ code for a graduate level project in the "Operating Systems" course (COSC 514) at Bowie State University**
 
 
 In this project, the goal is to simulate a number of processes going through various queues in a simulated operating system. Ten processes are started and placed in a Ready Queue; one process is assigned to a CPU when one becomes available (our assumption is only one CPU is available). A process remains in the CPU for a period of time that is determined dynamically (it is a random number from 1 to 5 generated before the process is placed in the CPU). Next, the process is assigned to the Wait Queue where it waits until a Disk becomes available (our assumption is 1 Disk only is available). In the disk, an operation of reading in a set of data enough to fill a memory page is performed (our assumption is 8 lines make up a page) before the process is moved to the Ready Queue. 
