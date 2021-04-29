@@ -1,4 +1,4 @@
-# COSC514BowieState
+### COSC514BowieState
 **The repo contains C++ code for a graduate level project in the "Operating Systems" course (COSC 514) at Bowie State University**
 
 
