@@ -19,3 +19,5 @@ As the processes move through the pipeline, the processes are removed and added 
 The program does not require user input to run. Once it finishes, it will output two pieces of information: 1) a table showing a progression of the processes as they move in the pipeline; 2) the contents of memory nodes showing the read-in data for each of the processes.
 
 ![COSC514GITHUB 001](https://user-images.githubusercontent.com/20401990/116634295-a2804280-a929-11eb-96e2-ff07a0adba22.jpeg)
+
+![COSC514GITHUB 002](https://user-images.githubusercontent.com/20401990/116634353-c9d70f80-a929-11eb-88d0-c4a1b689b7d9.jpeg)
