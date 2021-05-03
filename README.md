@@ -7,7 +7,7 @@ Ten processes are started and placed in a Ready Queue; one process from the Read
 
 Next, the process is assigned to the Wait Queue where it waits until a Disk becomes available (the assumption is one Disk only is available). In the Disk, an operation of reading in a set of data to fill a memory page is performed (the assumption is a page consists of 8 lines) before the process is moved to the Ready Queue out of the Disk Queue. Each process reads in a specific file corresponding to the process number; each file holds 100 lines with 10 characters per line. The processes traverse the pipeline until all of them read in all 100 lines in their respective files. 
 
-Each process is represented as a Process Control Block (PCB) node; memory information is represented as a memory node. The states in the pipeline are represented as  give lists consisting of PCB nodes: 
+Each process is represented as a Process Control Block (PCB) node; memory information is represented as a memory node. The states in the pipeline are represented as   the following lists consisting of PCB nodes: 
 - Ready Queue (N-node list)
 - CPU Queue (1-node list)
 - Wait Queue (N-node list) 
